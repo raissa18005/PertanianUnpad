@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teknik Pertanian Unpad</string>
+    <string name="misi_judul"><big>MISI</big></string>
+    <string name="misi">
+        <p>Misi Program Studi Teknik Pertanian adalah :\n</p>
+        \n<li>Menciptakan atmosfer akademik yang kreatif produktif dan kondusif guna mendukung budaya FTIP (<i>Focus, Trust, Integrity, Professional); untuk membentuk </i><i>sivitas</i> akademika yang berintegritas, berkarakter, berdaya saing dan berwawasan internasional dengan melaksanakan pengelolaan program studi yang menjalankan tridharma perguruan tinggi secara profesional dan akuntabel dengan menerapkan prinsip penjaminan mutu (<i>quality assurance</i><i>);</i></li>
+        \n<li>Melaksanakan pembelajaran dan pendidikan yang efektif dalam bidang Teknik Pertanian sesuai tuntutan masyarakat pengguna lulusan Prodi TEP dan diakui secara internasional;</li>
+        \n<li>Melaksanakan penelitian dalam bidang Teknik Pertanian cerdas dan presisiyang berwawasaan lingkungan serta mampu berkontribusi bagi pemecahan masalah dalam kehidupan bermasyarakat, berbangsa dan bernegara dengan menjalin kerjasama berbagai mitra strategis di dalam dan luar negeri secara berkesinambungan; dan</li>
+        \n<li>Melaksanakan pengabdian kepada masyarakat sebagai wujud diseminasi hasil riset guna menopang pembelajaran dan kemajuan ilmu pengetahuan serta teknologi bagi komunitas akademik, pemerintah, industri dan masyarakat.</li>
+    </string>
+</resources>

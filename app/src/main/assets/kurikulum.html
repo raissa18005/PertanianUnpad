@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content {
+            margin: 10px;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/bg_struktur.jpeg');
+            min-height: 110px;
+            background-size: cover;
+            padding: 50px;
+            position: relative;
+        }
+
+        .diagram {
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+
+        .struktur {
+            text-align: center;
+        }
+
+        .coba {
+            display: flex;
+            background-color: teal;
+            border-radius: 10px;
+            color: aliceblue;
+        }
+
+        .coba .jabatan {
+            padding: 10px;
+        }
+
+        .coba img {
+            border-radius: 10px;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .tablepress {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .tablepress td,
+        .tablepress th {
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .tablepress tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .tablepress tr:hover {
+            background-color: #ddd;
+        }
+
+        .tablepress th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #389583;
+            color: white;
+        }
+
+        .tablepress-id-1 {
+            margin-top: 20px;
+        }
+
+        .judul {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<div class="hero">
+    <div class="hero-text">
+        <h1>Kurikulum</h1>
+    </div>
+</div>
+<div class="content">
+    <div class="title">
+        <h2>Struktur Kurikulum</h2>
+        <div class="title-desc">
+            Kurikulum dirancang dengan jumlah SKS (minimum untuk kelulusan) = 144 sks yang tersusun sebagai berikut (berdasarkan hasil rapat kurikulum FTIP 2017):
+        </div>
+    </div>
+    <table id="tablepress-1" class="tablepress tablepress-id-1">
+        <thead>
+        <tr class="row-1">
+            <th class="column-1">Jenis Mata Kuliah</th>
+            <th class="column-2">SKS</th>
+            <th class="column-3">Keterangan</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr class="row-4">
+            <th class="column-1">Jumlah Total</th>
+            <th class="column-2">144</th>
+            <th class="column-3"></th>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr class="row-2">
+            <td class="column-1">Mata Kuliah Wajib</td>
+            <td class="column-2">114</td>
+            <td class="column-3">Matakuliah Wajib, termasuk mata kuliah tugas akhir dan penciri, antara lain: 1) PKL dan tugas akhir yang meliputi Skripsi (dengan proses mulai seminar usulan, kolokium dan sidang ujian sarjana) dan Publikasi Ilmiah, 2) KKNM, sebagai
+                matakuliah penciri universitas; dan 3) PTIP, sebagai matakuliah penciri fakultas</td>
+        </tr>
+        <tr class="row-3">
+            <td class="column-1">Mata Kuliah Pilihan</td>
+            <td class="column-2">30</td>
+            <td class="column-3">Matakuliah Pilihan meliputi, 1) MK Pilihan Kompetensi Lab (Kajian), dalam rentang 12-18 sks, dari yang ditawarkan sejumlah 56 sks dan 2) MK Pilihan, dalam rentang 12  18 sks dari yang ditawarkan sejumlah 57 sks</td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- #tablepress-1 from cache -->
+
+    <div class="judul">
+        <h2><strong>Daftar Nama Matakuliah Wajib</strong></h2>
+    </div>
+
+
+    <table id="tablepress-2" class="tablepress tablepress-id-2">
+        <thead>
+        <tr class="row-1">
+            <th class="column-1">Semester</th>
+            <th class="column-2">Kode MK</th>
+            <th class="column-3">Nama Mata Kuliah</th>
+            <th class="column-4">Bobot sks</th>
+            <th class="column-5">Unit Penyelenggara</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr class="row-48">
+            <th class="column-1">Total</th>
+            <th class="column-2"></th>
+            <th class="column-3"></th>
+            <th class="column-4">144 sks</th>
+            <th class="column-5"></th>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr class="row-2">
+            <td class="column-1">1</td>
+            <td class="column-2">N10A1101</td>
+            <td class="column-3">Dasar Pengukuran Teknik</td>
+            <td class="column-4">2(1-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-3">
+            <td class="column-1">1</td>
+            <td class="column-2">N10A1102</td>
+            <td class="column-3">Manajemen agroindustri</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-4">
+            <td class="column-1">1</td>
+            <td class="column-2">N10A1103</td>
+            <td class="column-3">Matematika Dasar</td>
+            <td class="column-4">3(3-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-5">
+            <td class="column-1">1</td>
+            <td class="column-2">N10A1104</td>
+            <td class="column-3">Pengantar Teknik Pertanian dan Biosistem</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-6">
+            <td class="column-1">1</td>
+            <td class="column-2">N10N1101</td>
+            <td class="column-3">Pancasila dan Kewarganegaraan</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Universitas</td>
+        </tr>
+        <tr class="row-7">
+            <td class="column-1">1</td>
+            <td class="column-2">N10N1102</td>
+            <td class="column-3">Bahasa Indonesia</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Universitas</td>
+        </tr>
+        <tr class="row-8">
+            <td class="column-1">1</td>
+            <td class="column-2">N10N1103</td>
+            <td class="column-3">Bahasa Inggris</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Universitas</td>
+        </tr>
+        <tr class="row-9">
+            <td class="column-1">1</td>
+            <td class="column-2">N10N1105</td>
+            <td class="column-3">Olahraga, Kesenian dan Kreatifitas</td>
+            <td class="column-4">3(0-3)</td>
+            <td class="column-5">Universitas</td>
+        </tr>
+        <tr class="row-10">
+            <td class="column-1">1</td>
+            <td class="column-2">N10N1106</td>
+            <td class="column-3">Pengantar Teknologi Industri Pertanian</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Fakultas/FTIP</td>
+        </tr>
+        <tr class="row-11">
+            <td class="column-1">1</td>
+            <td class="column-2">N10N1108</td>
+            <td class="column-3">Agama</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Universitas</td>
+        </tr>
+        <tr class="row-12">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1201</td>
+            <td class="column-3">Ekonomi Teknik</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-13">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1202</td>
+            <td class="column-3">Menggambar Teknik</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-14">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1203</td>
+            <td class="column-3">Kalkulus</td>
+            <td class="column-4">3(3-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-15">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1204</td>
+            <td class="column-3">Kewirausahaan</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-16">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1205</td>
+            <td class="column-3">Mekanika Teknik</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-17">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1206</td>
+            <td class="column-3">Pemrograman Komputer</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-18">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1207</td>
+            <td class="column-3">Pengetahuan Bahan Teknik</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-19">
+            <td class="column-1">2</td>
+            <td class="column-2">N10A1208</td>
+            <td class="column-3">Termodinamika dan Pindah Panas</td>
+            <td class="column-4">4(4-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-20">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2101</td>
+            <td class="column-3">Alat dan Mesin Pertanian I</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-21">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2102</td>
+            <td class="column-3">Energi dan Kelistrikan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-22">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2103</td>
+            <td class="column-3">Hidrologi Teknik</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-23">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2104</td>
+            <td class="column-3">Karakteristik Bahan Hasil Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-24">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2105</td>
+            <td class="column-3">Matematika Teknik</td>
+            <td class="column-4">3(3-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-25">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2106</td>
+            <td class="column-3">Mekanika Fluida</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-26">
+            <td class="column-1">3</td>
+            <td class="column-2">N10A2107</td>
+            <td class="column-3">Pemetaan Sumberdaya Lahan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-27">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2201</td>
+            <td class="column-3">Analisis Sistem</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-28">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2202</td>
+            <td class="column-3">Elektronika Terapan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-29">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2203</td>
+            <td class="column-3">Kekuatan Bahan</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-30">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2204</td>
+            <td class="column-3">Metode Penelitian</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-31">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2205</td>
+            <td class="column-3">Rancangan Teknik</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-32">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2206</td>
+            <td class="column-3">Sumber Tenaga Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-33">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2207</td>
+            <td class="column-3">Teknik Irigasi dan Drainase</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-34">
+            <td class="column-1">4</td>
+            <td class="column-2">N10A2208</td>
+            <td class="column-3">Teknik Pascapanen</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-35">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3101</td>
+            <td class="column-3">Perbengkelan Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-36">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3102</td>
+            <td class="column-3">Teknik Penanganan Hasil Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-37">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3103</td>
+            <td class="column-3">Teknik Pengukuran dan Instrumentasi</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-38">
+            <td class="column-1">5</td>
+            <td class="column-2">N10N3101</td>
+            <td class="column-3">Kuliah Kerja Nyata Mahasiswa</td>
+            <td class="column-4">3(0-3)</td>
+            <td class="column-5">Universitas</td>
+        </tr>
+        <tr class="row-39">
+            <td class="column-1">5</td>
+            <td class="column-2"></td>
+            <td class="column-3">MK Pilihan Kompetensi Lab (Kajian) Semester Ganjil</td>
+            <td class="column-4">5 - 9 sks</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-40">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3201</td>
+            <td class="column-3">Lingkungan Pertanian dan Biosistem</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-41">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3202</td>
+            <td class="column-3">Riset Operasi</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-42">
+            <td class="column-1">6</td>
+            <td class="column-2"></td>
+            <td class="column-3">MK Pilihan Kompetensi Lab (Kajian) Semester Genap</td>
+            <td class="column-4">3 - 9 sks</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-43">
+            <td class="column-1">6</td>
+            <td class="column-2"></td>
+            <td class="column-3">MK Pilihan Semester 6</td>
+            <td class="column-4">6 - 12 sks</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-44">
+            <td class="column-1">7</td>
+            <td class="column-2"></td>
+            <td class="column-3">MK Pilihan Semester Ganjil</td>
+            <td class="column-4">6 sks</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-45">
+            <td class="column-1">7</td>
+            <td class="column-2">N10N4112</td>
+            <td class="column-3">Skripsi</td>
+            <td class="column-4">6(0-6)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-46">
+            <td class="column-1">7</td>
+            <td class="column-2">N10N4213</td>
+            <td class="column-3">Praktek Kerja Lapang</td>
+            <td class="column-4">3(0-3)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-47">
+            <td class="column-1">7</td>
+            <td class="column-2">N10N4214</td>
+            <td class="column-3">Publikasi Ilmiah</td>
+            <td class="column-4">2(0-2)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- #tablepress-2 from cache -->
+    <div class="judul">
+
+        <strong>Daftar nama matakuliah pilihan</strong>
+    </div>
+
+
+    <table id="tablepress-3" class="tablepress tablepress-id-3">
+        <thead>
+        <tr class="row-1">
+            <th class="column-1">Smt</th>
+            <th class="column-2">Kode MK</th>
+            <th class="column-3">Nama MK (pilihan)</th>
+            <th class="column-4">Bobot sks</th>
+            <th class="column-5">Unit/ Prodi/ Fak Pengelola</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr class="row-32">
+            <th class="column-1">Total</th>
+            <th class="column-2"></th>
+            <th class="column-3"></th>
+            <th class="column-4">81 sks</th>
+            <th class="column-5"></th>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr class="row-2">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3104</td>
+            <td class="column-3">Teknik Konservasi Tanah dan Air</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-3">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3105</td>
+            <td class="column-3">Teknik Pengelolaan Sumber Daya Air</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-4">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3106</td>
+            <td class="column-3">Teknologi Informasi Spasial</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-5">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3107</td>
+            <td class="column-3">Alat dan Mesin Pertanian II</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-6">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3108</td>
+            <td class="column-3">Fisika Mekanika Tanah</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-7">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3109</td>
+            <td class="column-3">Perancangan Elemen Mesin</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-8">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3110</td>
+            <td class="column-3">Teknik Bioproses</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-9">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3111</td>
+            <td class="column-3">Teknik Pendinginan dan Pembekuan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-10">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3112</td>
+            <td class="column-3">Teknik Pengeringan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-11">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3113</td>
+            <td class="column-3">Pemodelan dan Simulasi</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-12">
+            <td class="column-1">5</td>
+            <td class="column-2">N10A3114</td>
+            <td class="column-3">Sistem informasi</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-13">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3203</td>
+            <td class="column-3">Sistem Kontrol dan Otomatisasi</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-14">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3204</td>
+            <td class="column-3">Teknik Pengelolaan Daerah Aliran Sungai</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-15">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3206</td>
+            <td class="column-3">Ekoteknologi Sumber Daya Lahan dan Air</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-16">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3208</td>
+            <td class="column-3">Kualitas Air</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-17">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3209</td>
+            <td class="column-3">Teknik Pengendalian dan Konservasi Lingkungan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-18">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3210</td>
+            <td class="column-3">Ergonomi</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-19">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3211</td>
+            <td class="column-3">Perancangan Alat dan Mesin Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-20">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3212</td>
+            <td class="column-3">Analisis Numerik</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-21">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3213</td>
+            <td class="column-3">Desain Produk Alat dan Mesin Pertanian</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-22">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3214</td>
+            <td class="column-3">Fisika Bangunan Pertanian</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-23">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3215</td>
+            <td class="column-3">Pengujian Alat dan Mesin Pertanian</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-24">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3217</td>
+            <td class="column-3">Teknik Emerging Termal dan Non Termal</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-25">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3218</td>
+            <td class="column-3">Teknik Penyimpanan Bahan Hasil Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-26">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3219</td>
+            <td class="column-3">Pengendalian Pencemaran Bahan Hasil Pertanian</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-27">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3220</td>
+            <td class="column-3">Teknologi Proses Hasil Perkebunan</td>
+            <td class="column-4">3(2-1)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-28">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3221</td>
+            <td class="column-3">Manajemen Operasi</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-29">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3222</td>
+            <td class="column-3">Penjadwalan</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-30">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3223</td>
+            <td class="column-3">Sistem Pendukung Keputusan</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        <tr class="row-31">
+            <td class="column-1">6</td>
+            <td class="column-2">N10A3224</td>
+            <td class="column-3">Studi Kelayakan</td>
+            <td class="column-4">2(2-0)</td>
+            <td class="column-5">Prodi TEP</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+</body>
+
+</html>
